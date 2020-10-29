@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Monitor",
+    "description": "A device which is now only an extension",
+    "category": "Electronics",
+    "lastUpdated": "2020-10-23T18:25:43.511Z"
+  },
+  {
+    "name": "Wooden Almirah",
+    "description": "Furniture used to store personal items",
+    "category": "Furniture",
+    "lastUpdated": "2020-10-24T18:25:43.511Z"
+  },
+  {
+    "name": "Smart bulb",
+    "description": "Integrated with voice assistance",
+    "category": "Smart Electronics",
+    "lastUpdated": "2020-10-25T18:25:43.511Z"
+  }
+]

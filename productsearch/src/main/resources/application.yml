@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      hostname: mongo
+      port: 27017
+      database: products
+      username: relayr-user
+      password: pass
+server:
+  servlet:
+    context-path: /relayr
+  address: 0.0.0.0

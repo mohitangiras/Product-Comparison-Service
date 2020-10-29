@@ -1,0 +1,18 @@
+version: "3.7"
+services:
+  mongo:
+    image: mongo:4.2.2
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=pass
+      - MONGO_INITDB_DATABASE=products
+    volumes:
+      - ./config/mongo:/docker-entrypoint-initdb.d:ro
+  relayr:
+    image: relayr-product
+    restart: always
+    ports:
+      - "8080:8080"
