@@ -23,9 +23,6 @@ The solution should be based on java or python as programing language, however y
 familiar with. The solution should not be over engineered and running it on containers is preferred. We will be looking into how
 you solve the business logic with focus on good object-oriented design practices and API design!
 
-#####Deliverables:
-- Once you are done, please upload your solution to your github and share the link.
-
 Bonus Points (nice to have)
 If you want to go the extra mile you may consider the below points:
 - (Done) Delivering the solution running on container based env such as docker.
@@ -41,12 +38,14 @@ To run the project you would need following tools:
 3. docker
 
 ##Build process:
+
     cd /productsearch
     mvn clean install
     docker build -t relayr-product .
     cd..
 
 ##Run:
+
     docker-compose up
 
 #APIs (To be called in order):
