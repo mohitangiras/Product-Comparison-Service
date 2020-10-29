@@ -12,7 +12,13 @@ public class DataSource {
     @NotBlank
     @Schema(description = "Name of the data source", example = Constants.DataSource.AMAZON)
     String name;
+
+    @Schema(description = "Optional version for data source", example = "")
     String version;
+
+    @Schema(example = "")
     Date from;
+
+    @Schema(example = "")
     Date to;
 }
