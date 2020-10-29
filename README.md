@@ -77,3 +77,12 @@ also support search of that data.
 #High Availability
 The docker image can be deployed using docker swarm following the given blog:
 https://dzone.com/articles/go-microservices-part-5-deploying-on-docker-swarm
+
+#Next things
+    
+    - API Security AuthN/AuthZ
+    - Filters
+    - Docker Security settings
+    - AOP Advice exception formatting
+    - Data Source as a service
+    - AI service as a separate service
